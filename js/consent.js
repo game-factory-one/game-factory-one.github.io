@@ -56,7 +56,6 @@ function initGoogleAnalytics() {
         
     ga('create', gaProperty, 'auto');
     ga('send', 'pageview');
-    console.log("GA initialized.");
 }
 
 function gaOptOut() {
@@ -79,7 +78,6 @@ function initFacebookPixel() {
         'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '305700117185200');
     fbq('track', 'PageView');
-    console.log("FP initialized");
 }
 
 // Event Listeners
