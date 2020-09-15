@@ -1,8 +1,8 @@
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <title>Feudoku</title>
-    <meta name="description" content="A fun and tactical turn based sudoku app you can play with your friends! Available on Android, and coming to iOS." />
+    <title>Game Factory One</title>
+    <meta name="description" content="Welcome to Game Factory One! We are making fun-to-play games!" />
 
     
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -22,7 +22,7 @@
     
     <link href="https://gamefactory.one/scss/single.min.577ddb756bc753cb8c2643b40e14a32c2428247f8301901ff217cfc2ff583fde.css" type="text/css" rel="stylesheet">
     
-    <link href="https://gamefactory.one/scss/queries.min.73f270eaef5f0f30f16768c5f277bf18c3cc5050b2ae847f048ca9a92997a895.css" type="text/css" rel="stylesheet">
+    <link href="https://gamefactory.one/scss/queries.min.52f525b841b2ec794314f680d445da40ff1d6795a114c889eff70ee3a518762d.css" type="text/css" rel="stylesheet">
 </head>
 
 <body class="animate-in">
@@ -71,7 +71,7 @@
             <div class="game-block">
                 <p>A fun and tactical turn-based sudoku app you can play with your friends! Available on Android, and coming to iOS.</p>
 <p>Play against up to three of your friends, or match up against someone at random. Either way, you’ll be in the game in seconds!</p>
-<p>Read about Feudoku&rsquo;s <a href="privacy-policy">Privacy Policy</a>.</p>
+<p>Read about Feudoku&rsquo;s <a href="policy">Privacy Policy</a>.</p>
 
             </div>
             
@@ -108,34 +108,8 @@
         	<a href="https://twitter.com/GameFactoryOne" target="_blank"><p><i class="fab fa-twitter"></i></p></a>
             <a href="https://www.facebook.com/GameFactoryOneSweden" target="_blank"><p><i class="fab fa-facebook-f"></i></p></a>
             <a href="http://linkedin.com/company/game-factory-one" target="_blank"><p><i class="fab fa-linkedin-in"></i></p></a>
-        </div>
+        </div> 
     </footer>
 
-    <script>
-        chevron = document.getElementById("nav-chevron");
-        cross = document.getElementById("nav-cross");
-
-        window.addEventListener("beforeunload", function () {
-            document.body.classList.add("animate-out");
-        });
-
-        function openNav() {
-            document.getElementById("sidebar").style.width = "73px";
-            
-        
-            chevron.classList.add("hide-icon");
-            cross.classList.remove("hide-icon");
-        }
-
-        function closeNav() {
-            chevron = document.getElementById("nav-chevron");
-            cross = document.getElementById("nav-cross");
-
-            document.getElementById("sidebar").style.width = "0";
-            
-            
-            cross.classList.add("hide-icon");
-            chevron.classList.remove("hide-icon");
-        }
-    </script>
+    <script src="/js/nav.js"></script>
 </body>
