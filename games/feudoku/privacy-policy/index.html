@@ -2,8 +2,8 @@
         <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <title>Game Factory One</title>
-    <meta name="description" content="Welcome to Game Factory One! We are making fun-to-play games!" />
+    <title>Feudoku</title>
+    <meta name="description" content="A fun and tactical turn based sudoku app you can play with your friends! Available on Android, and coming to iOS." />
 
     
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/dcea18f9d1.js" crossorigin="anonymous"></script>
     <link rel="manifest" href="/site.webmanifest">
     
-    <link href="https://gamefactory.one/scss/main.min.bcaf41145eea923a1cc1a4bffa15fa0cf7b2f6333471bc9038b30920a2536a6c.css" type="text/css" rel="stylesheet">
+    <link href="https://gamefactory.one/scss/main.min.d6161e78b3ba9061d209ee163e39495b0da6e2633d8c4387b1cd8a2638761664.css" type="text/css" rel="stylesheet">
 
     
     <script data-ad-client="ca-pub-9024892752702460" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -60,6 +60,9 @@
                     <p><i class="fab fa-linkedin-in"></i></p>
                 </a>
                 <hr>
+                <a class="policy-icon" href="/policy">
+                    <p><i class="fas fa-cookie-bite"></i></p>
+                </a>
             </div>
         </div>
         <hr>
@@ -141,20 +144,23 @@ This policy is effective as of 2020-06-23</p>
 
         <footer>
         <div class="consent">
-            <p>
-                We use cookies and third-party analytics to understand 
-                how you use our site and to improve your experience. 
-                <a href="/policy">Learn More</a>
-            </p>
-            <div class="buttons">
-                <button class="btn-accept" onclick="updateConsent(true)">Allow</button>
-                <button class="btn-decline" onclick="updateConsent(false)">Decline</button>
+            <div class="consent-window">
+                <p>
+                    We use cookies and third-party analytics to understand 
+                    how you use our site and to improve your experience. 
+                    <a href="/policy">Learn More</a>
+                </p>
+                <div class="buttons">
+                    <button class="btn-accept" onclick="updateConsent(true)">Allow</button>
+                    <button class="btn-decline" onclick="updateConsent(false)">Decline</button>
+                </div>
             </div>
         </div>
         <div class="social-icons footer-icons">
         	<a href="https://twitter.com/GameFactoryOne" target="_blank"><p><i class="fab fa-twitter"></i></p></a>
             <a href="https://www.facebook.com/GameFactoryOneSweden" target="_blank"><p><i class="fab fa-facebook-f"></i></p></a>
             <a href="http://linkedin.com/company/game-factory-one" target="_blank"><p><i class="fab fa-linkedin-in"></i></p></a>
+            <a href="/policy"><p><i class="fas fa-cookie-bite"></i></p></a>
         </div> 
     </footer>
 
